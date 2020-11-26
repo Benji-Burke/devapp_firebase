@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import FirebaseContact from './components/FirebaseContact';
+import NavbarComponent from './components/Navbar/NavbarComponent.js';
 
 function App() {
   return (
     <div className="App">
+     <NavbarComponent/>
       <header className="App-header">
+        
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,6 +22,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <FirebaseContact/>
     </div>
   );
 }
