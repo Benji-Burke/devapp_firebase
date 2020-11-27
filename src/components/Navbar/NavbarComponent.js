@@ -2,9 +2,8 @@ import React from 'react'
 import { MenuItems } from './MenuItems';
 import { Button } from '../Button';
 import './Navbar.css'
-import {  Route, Router } from 'react-router-dom';
 import {  HashLink as Link } from 'react-router-hash-link';
-import FirebaseContact from '../FirebaseContact';
+
 
 class NavbarComponent extends React.Component {
     state = { clicked: false }

@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import FirebaseContact from './components/FirebaseContact';
 import NavbarComponent from './components/Navbar/NavbarComponent.js';
-import { BrowserRouter, HashRouter, Route, Router } from 'react-router-dom';
+import { HashRouter} from 'react-router-dom';
 
 function App() {
   return (
