@@ -44,8 +44,8 @@ const FirebaseContact = () => {
     + currentDate.getHours() + ":" 
     + currentDate.getMinutes() + ":" + currentDate.getSeconds();
     return (
-        <form className="form app" onSubmit={handleSubmit}>
-            <h1>Contact form ☎️ 📱 </h1>
+        <form className="form app"  onSubmit={handleSubmit}>
+            <h1 id="contact">Contact form ☎️ 📱 </h1>
 
             <label>Name</label>
             <input placeholder="Name" 
