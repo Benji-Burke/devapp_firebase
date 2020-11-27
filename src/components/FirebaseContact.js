@@ -61,7 +61,7 @@ const FirebaseContact = () => {
             <textarea placeholder="Message"
             value={message} 
             onChange={(e)=>setMessage(e.target.value)}></textarea>
-            
+
             <input
             placeholder="Time"
             defaultValue={currentDateTime}  
@@ -70,8 +70,7 @@ const FirebaseContact = () => {
             
             />
             
-            <button type="submit" style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)"}}>Submit</button>
-
+            <input type="submit" value="Submit" style={{background: loader ? "#ccc" : "rgba(120, 246, 246)"}}/>
 
         </form>
     )

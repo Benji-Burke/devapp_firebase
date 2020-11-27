@@ -3,6 +3,7 @@ import './App.css';
 import FirebaseContact from './components/FirebaseContact';
 import NavbarComponent from './components/Navbar/NavbarComponent.js';
 import { HashRouter} from 'react-router-dom';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         
 
         <FirebaseContact />
+        <Footer/>
       </div>
     </HashRouter>
   );
