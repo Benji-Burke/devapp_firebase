@@ -9,7 +9,7 @@ function App() {
     <HashRouter>
       <div className="App">
         <NavbarComponent />
-        <header className="App-header">
+        <header className="App-header" id="home">
 
           <img src={logo} className="App-logo" alt="logo" />
           <p>

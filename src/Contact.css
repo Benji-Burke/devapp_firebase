@@ -21,6 +21,7 @@ button {
   width: 400px;
   margin: 0 auto;
   height: 100vh;
+  
 }
 
 /* Contact.js */
@@ -29,6 +30,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 5rem;
 }
 
 .form > h1 {
