@@ -19,15 +19,11 @@ export const MenuItems = [
         url: '/contact',
         cName: 'nav-links'
     },
+
+  
     // {
     //     title: 'Contact Us',
-    //     url: '/contact',
-    //     cName: 'nav-links'
-    // },
-  
-    {
-        title: 'Contact Us',
-        url: '#contact',
-        cName: 'nav-links-mobile'
-    }
+    //     url: '#contact',
+    //     cName: 'nav-links-mobile'
+    // }
 ]

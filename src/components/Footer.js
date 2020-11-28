@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 
@@ -24,7 +25,7 @@ function Footer() {
                             <br/>
                             With Us?
                             
-                            <a href="/contact" className="button">Contact Us</a>
+                            <Link to="/contact" className="button">Contact Us</Link>
                         </h2>
 
                     </div>

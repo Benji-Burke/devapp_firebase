@@ -37,10 +37,6 @@ class NavbarComponent extends React.Component {
                     })}
 
 
-                    {/* <Link to="/contact"><Button>
-                    Contact Us
-                        </Button>
-                    </Link> */}
                 </ul>
 
             </nav>
