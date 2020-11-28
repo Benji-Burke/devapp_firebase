@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -26,6 +29,51 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.flex-grid {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+.col {
+  flex: 1;
+}
+
+.footer{
+  padding-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
+}
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  width: 32%;
+}
+
+
+
+#fixed-button{
+  position: fixed;
+  bottom: 0px;
+  right: 0px; 
 }
 
 @keyframes App-logo-spin {

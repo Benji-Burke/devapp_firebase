@@ -2,7 +2,7 @@ import React from 'react'
 import { MenuItems } from './MenuItems';
 import { Button } from '../Button';
 import './Navbar.css'
-import {  HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 class NavbarComponent extends React.Component {
@@ -16,7 +16,7 @@ class NavbarComponent extends React.Component {
 
             <nav className="NavbarItems"  >
                 <Link to="/">
-                <h1 className="navbar-logo">DevApp Agency</h1>
+                    <h1 className="navbar-logo">DevApp Agency</h1>
 
                 </Link>
                 <div className="menu-icon" onClick={this.handleClick}>
@@ -31,15 +31,17 @@ class NavbarComponent extends React.Component {
                                 <Link className={item.cName} smooth to={item.url}>
                                     {item.title}
                                 </Link>
+
                             </li>
                         )
+
                     })}
 
 
-                    <Link to="/contact"><Button>
+                    {/* <Link to="/contact"><Button>
                     Contact Us
                         </Button>
-                    </Link>
+                    </Link> */}
                 </ul>
 
             </nav>

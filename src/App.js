@@ -15,6 +15,9 @@ function App() {
         
         <Switch>
         <Route path="/" exact component={HomeScreen}/>
+
+        <Route path="/about" component={HomeScreen}/>
+        <Route path="/services" component={HomeScreen}/>
         <Route path="/contact" component={FirebaseContact}/>
         </Switch>
         

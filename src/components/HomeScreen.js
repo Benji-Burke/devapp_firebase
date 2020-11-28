@@ -1,5 +1,8 @@
 import React from 'react'
-import logo from '../logo.svg';
+import logo from '../DevAppAgencyLogo2.png';
+import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 
 
 function HomeScreen() {
@@ -7,19 +10,39 @@ function HomeScreen() {
         <div>
             <header className="App-header" id="home">
 
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={logo} className="app-logo" alt="logo" />
                 <p>
-                    Edit <code>src/App.js</code> and save to reload.
-</p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-</a>
+                    Let us help you grow your business.
+                </p>
             </header>
+            <section className="container section-text first" id="about">
+
+                <div className="row">
+                    <div className="col-12">
+                        <h2 className="header-text">
+                            WE ARE DEVAPP AGENCY
+            </h2>
+                        <p>
+                            We design and develop digital products that help clients grow, and transform their endeavors.
+                            We listen and understand why before we tackle a project. We work together to achieve your goals,
+                            and use our expertiese to find your dream into reality.
+            </p>
+
+                    </div>
+
+                </div>
+            </section>
+           
+         
+            <div className="flex-grid column"  id="services">
+                <div className="col">1</div>
+                <div className="col">2</div>
+                <div className="col">3</div>
+            </div>
+
+      
+
+
         </div>
     )
 }
