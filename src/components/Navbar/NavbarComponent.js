@@ -15,7 +15,10 @@ class NavbarComponent extends React.Component {
         return (
 
             <nav className="NavbarItems"  >
+                <Link to="/">
                 <h1 className="navbar-logo">DevApp Agency</h1>
+
+                </Link>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
@@ -33,9 +36,9 @@ class NavbarComponent extends React.Component {
                     })}
 
 
-                    <Link smooth to="#contact"><Button>
-                        Contact Us
-                    </Button>
+                    <Link to="/contact"><Button>
+                    Contact Us
+                        </Button>
                     </Link>
                 </ul>
 

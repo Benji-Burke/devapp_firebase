@@ -1,33 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
 import FirebaseContact from './components/FirebaseContact';
 import NavbarComponent from './components/Navbar/NavbarComponent.js';
-import { HashRouter} from 'react-router-dom';
+import { HashRouter, Route} from 'react-router-dom';
 import Footer from './components/Footer';
+import Switch from 'react-bootstrap/esm/Switch';
+import HomeScreen from './components/HomeScreen';
 
 function App() {
   return (
     <HashRouter>
       <div className="App">
         <NavbarComponent />
-        <header className="App-header" id="home">
-
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-        </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-        </a>
-        </header>
+       
         
-
-        <FirebaseContact />
+        <Switch>
+        <Route path="/" exact component={HomeScreen}/>
+        <Route path="/contact" component={FirebaseContact}/>
+        </Switch>
+        
         <Footer/>
       </div>
     </HashRouter>
