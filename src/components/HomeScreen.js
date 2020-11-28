@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from '../DevAppAgencyLogo2.png';
-import { Col, Container, Row } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+
 
 
 
